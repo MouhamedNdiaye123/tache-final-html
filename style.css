@@ -1,4 +1,4 @@
-:root{
+:root {
     --jaune: rgb(255, 152, 0);
     --jauneHover: rgb(255, 173, 51);
 
@@ -22,7 +22,8 @@ p {
     font-size: 15px;
 }
 
-section, footer {
+section,
+footer {
     padding: 45px 3%;
 }
 
@@ -39,16 +40,18 @@ img {
     transition: .3s ease-in-out;
     /* display: flex; */
     align-items: center;
-    
+
 }
 
 .btn:hover {
     background-color: var(--jauneHover);
 }
-.btn i{
+
+.btn i {
     font-size: 25px;
     margin-left: 15px;
 }
+
 .section-heading h2 {
     text-align: center;
     color: black;
@@ -64,20 +67,24 @@ header {
     top: 0;
     z-index: 1000;
 }
+
 .entete {
     text-align: center;
     background: linear-gradient(55deg, rgb(247, 210, 196), rgb(248, 248, 248), rgb(247, 210, 196));
     padding: 15px 0;
 }
-.entete a{
+
+.entete a {
     color: black;
     font-size: 14px;
 }
-.entete span{
+
+.entete span {
     font-weight: 600;
 }
+
 .entete:hover {
-    background-color: rgb(226, 211, 213),;
+    background-color: rgb(226, 211, 213), ;
 }
 
 nav {
@@ -86,8 +93,17 @@ nav {
     justify-content: space-between;
     padding: 10px 3%;
     background-color: rgb(248, 248, 248);
-    position: sticky;
-    top: 0;
+    
+}
+
+/* .menu i {
+    
+    display: none;
+} */
+
+.menu {
+    display: none;
+    font-size: 30px;
 }
 
 nav .logo img {
@@ -109,7 +125,8 @@ nav .logo img {
 .navbar .active {
     color: var(--jauneHover);
 }
-.navbar li a::after{
+
+.navbar li a::after {
     position: absolute;
     content: '';
     left: 0;
@@ -119,7 +136,8 @@ nav .logo img {
     transition: .3s;
     bottom: 0;
 }
-.navbar:hover::after{
+
+.navbar:hover::after {
     width: 100%;
 }
 
@@ -157,6 +175,20 @@ nav .logo img {
     font-size: 15px;
 }
 
+.home-content .home-btn {
+    display: flex;
+    align-items: center;
+}
+
+.home-btn a {
+    display: flex;
+    align-items: center;
+}
+
+.home-btn i {
+    font-size: 20px;
+}
+
 .home-img img {
     width: 500px;
     margin-top: -50px;
@@ -183,7 +215,7 @@ nav .logo img {
 }
 
 .btn1 {
-    background: linear-gradient(45deg, rgb(170, 16, 16),rgb(64, 150, 136));
+    background: linear-gradient(45deg, rgb(170, 16, 16), rgb(64, 150, 136));
     color: white;
     text-transform: uppercase;
     border-radius: 30px;
@@ -210,7 +242,8 @@ nav .logo img {
     padding: 15px;
     max-width: 350px;
 }
-.program-box:hover{
+
+.program-box:hover {
     box-shadow: 0 5px 5px gray;
 }
 
@@ -287,7 +320,8 @@ nav .logo img {
 .evenement {
     background-color: rgb(243, 244, 246);
 }
-.evenement .e-btn{
+
+.evenement .e-btn {
     text-align: center;
 }
 
@@ -297,6 +331,7 @@ nav .logo img {
     grid-gap: 20px;
     margin: 30px 0;
 }
+
 .evenement-box {
     display: flex;
     flex-direction: column;
@@ -305,6 +340,7 @@ nav .logo img {
     border-top-right-radius: 10px;
     background-color: white;
 }
+
 .evenement-box .img {
     background: no-repeat center/cover url(./images/img1.png);
     background-position: top;
@@ -312,26 +348,32 @@ nav .logo img {
     height: 160px;
     /* object-fit: cover; */
 }
-.evenement-body{
+
+.evenement-body {
     padding: 15px;
 }
-.evenement-body > span{
+
+.evenement-body>span {
     color: var(--jauneHover);
     margin-top: 10px;
 }
-.evenement-body h5{
+
+.evenement-body h5 {
     font-size: 15px;
     margin: 15px 0;
 }
-.evenement-body p{
+
+.evenement-body p {
     font-size: 14px;
     margin-bottom: 7px;
     line-height: 22px;
 }
-.evenement-body .lieu{
+
+.evenement-body .lieu {
     display: flex;
 }
-.lieu i{
+
+.lieu i {
     color: var(--jauneHover);
     margin-right: 5px;
     font-size: 20px;
@@ -339,74 +381,87 @@ nav .logo img {
 
 
 /* TEMOIN STYLE */
-.temoin{
+.temoin {
     background-color: rgb(248, 250, 252);
 }
-.temoin-container{
+
+.temoin-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     grid-gap: 20px;
 }
-.temoin-box{
+
+.temoin-box {
     display: flex;
     flex-direction: column;
     background-color: white;
     padding: 17px;
     border-radius: 10px;
     box-shadow: 0 2px 2px gray;
-    max-width: 330px;
+    max-width: 340px;
 }
-.temoin-box p{
+
+.temoin-box p {
     letter-spacing: 1px;
     line-height: 23px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     font-size: 14px;
 }
-.temoin-infos{
+
+.temoin-infos {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.temoin-infos h5{
+
+.temoin-infos h5 {
     font-size: 15px;
     margin-bottom: 5px;
 }
-.temoin-infos span{
+
+.temoin-infos span {
     color: var(--jaune);
     font-size: 13px;
 }
-.temoin-infos img{
+
+.temoin-infos img {
     width: 50px;
     height: 55px;
     border-radius: 100%;
+    object-fit: cover;
 }
 
 
 
 /* JOIN STYLE */
-.join{
+.join {
     background: no-repeat center / cover url(./images/footer-banner.png);
     min-height: 10vh;
     color: white;
 }
-.join-container{
+
+.join-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.join-left{
+
+.join-left {
     margin-bottom: 20px;
 }
-.join-left h5{
+
+.join-left h5 {
     font-size: 20px;
     margin-bottom: 10px;
     line-height: 30px;
 }
-.join-left h4{
+
+.join-left h4 {
     font-size: 24px;
 }
-.join-right .btn2{
+
+.join-right .btn2 {
     color: rgb(193, 12, 25);
     padding: 15px 25px;
     background-color: white;
@@ -414,34 +469,40 @@ nav .logo img {
     text-align: center;
     font-size: 15px;
 }
-.join-right .btn2 i{
+
+.join-right .btn2 i {
     margin-top: 5px;
 }
 
 
 /* FOOTER STYLE */
-.footer-section{
+.footer-section {
     background-color: rgb(249, 250, 251);
 }
-.footer-container{
+
+.footer-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     grid-gap: 50px;
-    
+
 }
-.footer-box img{
+
+.footer-box img {
     width: 100px;
     margin-bottom: 50px;
 }
-.footer-box p{
+
+.footer-box p {
     line-height: 25px;
     color: rgb(73, 72, 72);
 }
-.footer-icon{
+
+.footer-icon {
     display: flex;
     margin-top: 30px;
 }
-.footer-icon i{
+
+.footer-icon i {
     color: white;
     background-color: rgb(31, 41, 55);
     padding: 7px;
@@ -452,37 +513,45 @@ nav .logo img {
     cursor: pointer;
     transition: .2s ease-in-out;
 }
-.footer-icon i:hover{
+
+.footer-icon i:hover {
     background-color: var(--jauneHover);
 }
-.footer-box{
+
+.footer-box {
     display: flex;
     flex-direction: column;
 }
-.footer-box h3{
+
+.footer-box h3 {
     font-size: 15px;
     color: rgb(156, 163, 180);
     font-weight: 500;
     margin-bottom: 40px;
 }
-.footer-box a{
+
+.footer-box a {
     color: black;
     margin-bottom: 20px;
     font-size: 15px;
 }
-.footer-box a:hover{
+
+.footer-box a:hover {
     color: rgb(64, 150, 136);
 }
-.footer-box input{
+
+.footer-box input {
     padding: 20px 15px;
     border: 1px solid rgba(128, 128, 128, 0.111);
     border-radius: 5px;
     margin-bottom: 10px;
 }
-.footer-box input:focus{
+
+.footer-box input:focus {
     border: 1px solid rgb(64, 150, 136);
 }
-.footer-box .btn3{
+
+.footer-box .btn3 {
     color: white;
     padding: 15px 25px;
     background-color: rgb(64, 150, 136);
@@ -490,19 +559,23 @@ nav .logo img {
     text-align: center;
     font-size: 15px;
 }
-.footer-box .btn3:hover{
+
+.footer-box .btn3:hover {
     background-color: rgb(78, 171, 155);
     color: white;
 }
-.footer-boxs{
+
+.footer-boxs {
     display: flex;
     grid-gap: 50px;
 }
-.footer-copy{
+
+.footer-copy {
     margin-top: 50px;
     border-top: 1px solid rgb(217, 217, 217);
 }
-.footer-copy p{
+
+.footer-copy p {
     margin-top: 30px;
     text-align: center;
     font-size: 12px;
@@ -525,38 +598,62 @@ nav .logo img {
         width: 100%;
         margin-top: 0px;
     }
+
     .program-section {
         margin-top: -10px;
-  
+
     }
+
     .program-container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(260px, auto));
         grid-gap: 20px;
         margin-top: 20px;
     }
-   .navbar, .navbar-btn{
-    display: none;
-   }
+
+    .navbar,
+    .navbar-btn {
+        display: none;
+    }
+
+    /* .menu i {
+        display: flex;
+        margin-right: 50px;
+    } */
+
+    .menu {
+        display: flex;
+        
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        
+    }
 }
 
 
-.diplome-container{
+.diplome-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
     grid-gap: 50px;
     align-items: center;
 }
-.diplome-text h2{
+
+.diplome-text h2 {
     font-size: 25px;
 }
-.diplome-text p{
+
+.diplome-text p {
     font-size: 14px;
     margin: 30px 0;
     line-height: 23px;
     letter-spacing: 1px;
 }
-.btn-f{
+
+.btn-f {
     color: white;
     background-color: var(--jaune);
     padding: 12px 20px;
@@ -564,195 +661,1531 @@ nav .logo img {
     font-size: 14px;
     font-weight: 600;
 }
-.icon-f{
+
+.icon-f {
     margin: 20px 0;
     display: flex;
     align-items: center;
 }
-.icon-f i{
+
+.icon-f i {
     color: var(--jaune);
     font-size: 27px;
     margin-right: 5px;
 }
-.icon-f span{
+
+.icon-f span {
     font-size: 14px;
 }
-.diplome-img img{
+
+.diplome-img img {
     margin-right: 20px;
     width: 500px;
 }
 
 
+
+
+.banner-inscription {
+    padding: 0;
+}
+
+.banner-inscription img {
+    width: 100%;
+    min-height: 50vh;
+}
+
 /* PARTI SAMBOU */
 
 
-.nos-evenemnet  {
-    background-image: url( "Image/page-banner-ee7eeff1.png");
-       height: 200px;
-       width: 100%;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      /* text-align: center; */
-      color: aliceblue;
-      font-size: 20px; 
-      margin-bottom: 8vh;
- }
- 
- a{
+.nos-evenemnet {
+    background-image: url("Image/page-banner-ee7eeff1.png");
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* text-align: center; */
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 8vh;
+    padding: 0;
+    margin: 0;
+}
+
+a {
     color: black;
-     
- }
- .princi{
- padding-top: 50px;
- }
- .No-evn{
+
+}
+
+.princi {
+    padding-top: 50px;
+}
+
+.No-evn {
     font-size: 1.55rem;
     display: flex;
     align-items: center;
     justify-content: center;
- 
-  }
-  #eil{
-     color:orange;
-  }
-  .acc-even{
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     gap: 10px;
-  }
-  .acc-even a{
+
+}
+
+#eil {
+    color: orange;
+}
+
+.acc-even {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.acc-even a {
     border-bottom: 1px solid;
-  }
-  .acc-even span{
+}
+
+.acc-even span {
     border: 1px solid;
     height: 9px;
     width: 9px;
     background: #fff;
     border-radius: 50%;
-  }
-  .formation{
-     display: flex;
-     justify-content: space-between;
-     gap: 20px;
-     /* padding-left: 80px;
+}
+
+.formation {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* padding-left: 80px;
      padding-right:80px; */
-     
-  }
-  .contain-IMAGE{
-     display: grid;
-     grid-template-columns: 1fr 1fr 1fr;
-     /* grid-template-rows: 410px 410px 410px; */
-     grid-template-rows: 1fr 1fr 1fr;
-     gap: 1rem;
-     
-  }
- 
-  img{
-    width:100%;
-    
-  }
-  .image{
+
+}
+
+.contain-IMAGE {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 410px 410px 410px; */
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem;
+
+}
+
+img {
+    width: 100%;
+
+}
+
+.image {
     border: 1px solid rgb(243, 244, 246);
     border-radius: 0.375rem;
-     
-  }
-  .image img{
-     /* height: 50%; */
-     width:100%;
-     /* height: 45%; */
-     object-fit: cover;
-     border-top-left-radius: .5rem;
-     border-top-right-radius: .5rem;
-     
-  }
- 
-  .cherch{
-    
-     box-shadow:0 20px 25px -5px #fff,0 8px 10px -6px  ;
-     padding: 20px 30px;
-     /* width: 200px; */
-     height: 150px;    
-  }
-  h4{
+
+}
+
+.image img {
+    /* height: 50%; */
+    width: 100%;
+    /* height: 45%; */
+    object-fit: cover;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+
+}
+
+.cherch {
+
+    box-shadow: 0 20px 25px -5px #fff, 0 8px 10px -6px;
+    padding: 20px 30px;
+    /* width: 200px; */
+    height: 150px;
+}
+
+h4 {
     font-weight: 700;
     margin-bottom: 5px;
-  }
- 
- .rech{
-     display: flex;
-     justify-content: center;
-     margin-bottom: 10px;
-     /* border: 1px solid; */
-     
-     position: relative;
-  }
-  .rech:hover{
+}
+
+.rech {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    /* border: 1px solid; */
+
+    position: relative;
+}
+
+.rech:hover {
     border: 2px solid #73AD21;
-  }
- .rech input{
-     height:30px;
-     padding: 10px 20px;
-     border: 2px solid #73AD21;
-     border-radius: 3.75px;
-     background-color: tan;
-      
- }
- .rech i{
-     position: absolute;
+}
+
+.rech input {
+    height: 30px;
+    padding: 10px 20px;
+    border: 2px solid #73AD21;
+    border-radius: 3.75px;
+    background-color: tan;
+
+}
+
+.rech i {
+    position: absolute;
     right: 20px;
     top: 5px;
- }
-  .imA{ 
-      flex-direction: column;
-      padding: 20px 20px;
-      font-size: 20px;
-     padding-top: 30px; 
-     
-  }
-  .imA .fa{
-    color: rgb(225 , 152, 0);
+}
+
+.imA {
+    flex-direction: column;
+    padding: 20px 20px;
+    font-size: 20px;
+    padding-top: 30px;
+
+}
+
+.imA .fa {
+    color: var(--jaune);
     margin-bottom: 1rem;
-  }
-  .comment,
-  .ravi{
+}
+
+.comment,
+.ravi {
     font-weight: 700px;
     margin-bottom: 1rem;
-  }
-  .blck{
+}
+
+.blck {
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-     
-  }
-  .ravi{
+
+}
+
+.ravi {
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     /* -webkit-line-clamp: 1; */
-  }
- 
- 
- 
- @media screen and (max-width: 760px){
-    .contain-IMAGE{
-       display: grid;
-     grid-template-columns: 1fr ;
-     grid-template-rows: 1fr;
-     gap: 1rem;
- 
+}
+
+
+
+@media screen and (max-width: 760px) {
+    .contain-IMAGE {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 1rem;
+
     }
-    .formation{
-       flex-direction: column;
-       gap: 20px;
+
+    .formation {
+        flex-direction: column;
+        gap: 20px;
     }
+
     nav {
-       flex-direction: column;
-       
+        flex-direction: column;
+
     }
-    nav .EVEN{
-       flex-direction: column;
+
+    nav .EVEN {
+        flex-direction: column;
     }
-   
+
+}
+
+
+/* partie Nafisstou */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   font-family: sans-serif;
+}
+.heading{
+    padding-top: 5rem;
+    padding-left: 30rem;
+}
+.index{
+    color: orange;
+}
+.blog{
+    color: black;
+    text-decoration: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.section-block{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px gray;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 40px;
+}
+.section-bloc:hover{
+    /* transform: translateY(1.5); */
+    
+} 
+.block-container{
+    padding: 20px;
+
+}
+.block-container .img{
+    background: no-repeat center/ cover url(image/djiango.png);
+    min-height: 26vh;
+    /* background-position: top; */
+}
+.block-container h3{
+    margin: 10px 0;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.block-container p{
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(92, 91, 91);
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.info .left{
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.right span{
+    color: rgb(92, 91, 91);
+    font-family: JetBrains Mono, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+}
+/* -----------------------------------2ème patie------------------------------------- */
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.section-one{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px gray;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 40px;
+}
+.section-one:hover{
+    /* transform: translateY(1.5); */
+    
+} 
+.one-container{
+    padding: 20px;
+
+}
+.one-container .img{
+    background: no-repeat center/ cover url(image/fontend-backend.png);
+    min-height: 26vh;
+}
+ .one-container h3{
+    margin: 10px 0;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.one-container p{
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(92, 91, 91);
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.info .left{
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.right span{
+    color: rgb(92, 91, 91);
+    font-family: JetBrains Mono, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+} 
+/*  -------------------------------3ème partie---------------------------- */
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.section-two{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px gray;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 40px;
+}
+.section-two:hover{
+    /* transform: translateY(1.5); */
+    
+} 
+.two-container{
+    padding: 20px;
+
+}
+.two-container .img{
+    background: no-repeat center/ cover url(image/js.webp);
+    min-height: 26vh;
+}
+ .two-container h3{
+    margin: 10px 0;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.two-container p{
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(92, 91, 91);
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.info .left{
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.right span{
+    color: rgb(92, 91, 91);
+    font-family: JetBrains Mono, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+}
+/* --------------------------------------------------4ème partie--------------------------------------------- */
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.section-three{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px gray;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 40px;
+}
+.section-three:hover{
+    /* transform: translateY(1.5); */
+    
+} 
+.three-container{
+    padding: 20px;
+
+}
+.three-container .img{
+    background: no-repeat center/ cover url(image/RxJS.png);
+    min-height: 26vh;
+}
+ .three-container h3{
+    margin: 10px 0;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.three-container p{
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(92, 91, 91);
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.info .left{
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.right span{
+    color: rgb(92, 91, 91);
+    font-family: JetBrains Mono, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+}
+/* ---------------------------5ème partie------------------------- */
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.section-four{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px gray;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 40px;
+}
+.section-four:hover{
+    /* transform: translateY(1.5); */
+    
+} 
+.four-container{
+    padding: 20px;
+
+}
+.four-container .img{
+    background: no-repeat center/ cover url(image/hoock.png);
+    min-height: 26vh;
+}
+ .four-container h3{
+    margin: 10px 0;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.four-container p{
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(92, 91, 91);
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.info .left{
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.right span{
+    color: rgb(92, 91, 91);
+    font-family: JetBrains Mono, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+}
+/* ---------------------------6ème partie------------------------- */
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.section-five{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px gray;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 40px;
+}
+.section-five:hover{
+    /* transform: translateY(1.5); */
+    
+} 
+.five-container{
+    padding: 20px;
+
+}
+.five-container .img{
+    background: no-repeat center/ cover url(image/laravel.png);
+    min-height: 26vh;
+}
+ .five-container h3{
+    margin: 10px 0;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.five-container p{
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(92, 91, 91);
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.info .left{
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.right span{
+    color: rgb(92, 91, 91);
+    font-family: JetBrains Mono, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+}
+/* ---------------------------7ème partie------------------------- */
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.section-six{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px gray;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 40px;
+}
+.section-six:hover{
+    /* transform: translateY(1.5); */
+    
+} 
+.six-container{
+    padding: 20px;
+
+}
+.six-container .img{
+    background: no-repeat center/ cover url(image/le\ pouvoir.png);
+    min-height: 26vh;
+}
+ .six-container h3{
+    margin: 10px 0;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.six-container p{
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(92, 91, 91);
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.info .left{
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.right span{
+    color: rgb(92, 91, 91);
+    font-family: JetBrains Mono, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+}
+/* ---------------------------8ème partie------------------------- */
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.section-seven{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px gray;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 40px;
+}
+.section-seven:hover{
+    /* transform: translateY(1.5); */
+    
+} 
+.seven-container{
+    padding: 20px;
+
+}
+.seven-container .img{
+    background: no-repeat center/ cover url(image/Coach\ Diey.png);
+    min-height: 26vh;
+}
+ .seven-container h3{
+    margin: 10px 0;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.seven-container p{
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(92, 91, 91);
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.info .left{
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.right span{
+    color: rgb(92, 91, 91);
+    font-family: JetBrains Mono, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+}
+/* ---------------------------9ème partie------------------------- */
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.section-item{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px gray;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 40px;
+}
+.section-item:hover{
+    /* transform: translateY(1.5); */
+    
+} 
+.item-container{
+    padding: 20px;
+
+}
+.item-container .img{
+    background: no-repeat center/ cover url(image/Model.jpg);
+    min-height: 26vh;
+}
+ .item-container h3{
+    margin: 10px 0;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.item-container p{
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(92, 91, 91);
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.info .left{
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.right span{
+    color: rgb(92, 91, 91);
+    font-family: JetBrains Mono, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+}
+/* ---------------------------10ème partie------------------------- */
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.section-gender{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px gray;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 40px;
+}
+.section-gender:hover{
+    /* transform: translateY(1.5); */
+    
+} 
+.gender-container{
+    padding: 20px;
+
+}
+.gender-container .img{
+    background: no-repeat center/ cover url(image/UX.jpg);
+    min-height: 26vh;
+}
+ .gender-container h3{
+    margin: 10px 0;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.gender-container p{
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(92, 91, 91);
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.info .left{
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.right span{
+    color: rgb(92, 91, 91);
+    font-family: JetBrains Mono, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+}
+/* ---------------------------11ème partie------------------------- */
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.section-box{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px gray;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 40px;
+}
+.section-box:hover{
+    /* transform: translateY(1.5); */
+    
+} 
+.box-container{
+    padding: 20px;
+
+}
+.box-container .img{
+    background: no-repeat center/ cover url(image/top\ 10.png);
+    min-height: 26vh;
+}
+ .box-container h3{
+    margin: 10px 0;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.box-container p{
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(92, 91, 91);
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.info .left{
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.right span{
+    color: rgb(92, 91, 91);
+    font-family: JetBrains Mono, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+}
+/* ---------------------------12ème partie------------------------- */
+
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.section-flex{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px gray;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 40px;
+}
+.section-flex:hover{
+    /* transform: translateY(1.5); */
+    
+} 
+.flex-container{
+    padding: 20px;
+
+}
+.flex-container .img{
+    background: no-repeat center/ cover url(image/Dieynaba\ Ly.png);
+    min-height: 26vh;
+}
+ .flex-container h3{
+    margin: 10px 0;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.flex-container p{
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(92, 91, 91);
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.info .left{
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.right span{
+    color: rgb(92, 91, 91);
+    font-family: JetBrains Mono, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+}
+/* ---------------------------12ème partie------------------------- */
+
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.section-aws{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px gray;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 40px;
+}
+.section-aws:hover{
+    /* transform: translateY(1.5); */
+    
+} 
+.aws-container{
+    padding: 20px;
+
+}
+.aws-container .img{
+    background: no-repeat center/ cover url(image/Dieyna\ AWS.png);
+    min-height: 26vh;
+}
+ .aws-container h3{
+    margin: 10px 0;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.aws-container p{
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(92, 91, 91);
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.info .left{
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.right span{
+    color: rgb(92, 91, 91);
+    font-family: JetBrains Mono, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+}
+/* ---------------------------12ème partie------------------------- */
+
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.section-java{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px gray;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 40px;
+}
+.section-java:hover{
+    /* transform: translateY(1.5); */
+    
+} 
+.java-container{
+    padding: 20px;
+
+}
+.java-container .img{
+    background: no-repeat center/ cover url(image/sokhnna\ fatou\ JS.png);
+    min-height: 26vh;
+}
+ .java-container h3{
+    margin: 10px 0;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.java-container p{
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(92, 91, 91);
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.info .left{
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.right span{
+    color: rgb(92, 91, 91);
+    font-family: JetBrains Mono, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+}
+/* ---------------------------12ème partie------------------------- */
+
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.section-lang{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px gray;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 40px;
+}
+.section-lang:hover{
+    /* transform: translateY(1.5); */
+    
+} 
+.lang-container{
+    padding: 20px;
+
+}
+.lang-container .img{
+    background: no-repeat center/ cover url(image/mémoire.png);
+    min-height: 26vh;
+}
+ .lang-container h3{
+    margin: 10px 0;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.lang-container p{
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(92, 91, 91);
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.info .left{
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.right span{
+    color: rgb(92, 91, 91);
+    font-family: JetBrains Mono, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+}
+/* ---------------------------12ème partie------------------------- */
+
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.section-git{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px gray;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 40px;
+}
+.section-git:hover{
+    /* transform: translateY(1.5); */
+    
+} 
+.git-container{
+    padding: 20px;
+
+}
+.git-container .img{
+    background: no-repeat center/ cover url(image/Oumy\ Laye.png);
+    min-height: 26vh;
+}
+ .git-container h3{
+    margin: 10px 0;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.git-container p{
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(92, 91, 91);
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.info .left{
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.right span{
+    color: rgb(92, 91, 91);
+    font-family: JetBrains Mono, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+}
+/* ---------------------------12ème partie------------------------- */
+
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.section-speak{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px gray;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 40px;
+}
+.section-speak:hover{
+    /* transform: translateY(1.5); */
+    
+} 
+.speak-container{
+    padding: 20px;
+
+}
+.speak-container .img{
+    background: no-repeat center/ cover url(image/coach\ Samb.png);
+    min-height: 26vh;
+}
+ .speak-container h3{
+    margin: 10px 0;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.speak-container p{
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(92, 91, 91);
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.info .left{
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.right span{
+    color: rgb(92, 91, 91);
+    font-family: JetBrains Mono, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+}
+/* ---------------------------12ème partie------------------------- */
+
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.section-pwa{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px gray;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 40px;
+}
+.section-pwa:hover{
+    /* transform: translateY(1.5); */
+    
+} 
+.pwa-container{
+    padding: 20px;
+
+}
+.pwa-container .img{
+    background: no-repeat center/ cover url(image/daouda\ react\ et\ push.png);
+    min-height: 26vh;
+}
+ .pwa-container h3{
+    margin: 10px 0;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.pwa-container p{
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(92, 91, 91);
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.info .left{
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.right span{
+    color: rgb(92, 91, 91);
+    font-family: JetBrains Mono, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+}
+/* ---------------------------12ème partie------------------------- */
+
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.section-next{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px gray;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 40px;
+}
+.section-next:hover{
+    /* transform: translateY(1.5); */
+    
+} 
+.next-container{
+    padding: 20px;
+
+}
+.next-container .img{
+    background: no-repeat center/ cover url(image/Daouda\ Thiam.png);
+    min-height: 26vh;
+}
+ .next-container h3{
+    margin: 10px 0;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.next-container p{
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(92, 91, 91);
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.info .left{
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.right span{
+    color: rgb(92, 91, 91);
+    font-family: JetBrains Mono, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+}
+/* ---------------------------12ème partie------------------------- */
+
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.section-query{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px gray;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 40px;
+}
+.section-query:hover{
+    /* transform: translateY(1.5); */
+    
+} 
+.query-container{
+    padding: 20px;
+
+}
+.query-container .img{
+    background: no-repeat center/ cover url(image/query.webp);
+    min-height: 26vh;
+}
+ .query-container h3{
+    margin: 10px 0;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.query-container p{
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(92, 91, 91);
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.info .left{
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.right span{
+    color: rgb(92, 91, 91);
+    font-family: JetBrains Mono, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+}
+/* ---------------------------12ème partie------------------------- */
+
+
+
+/* partie Amie sene */
+
+.Banniere{
+    display: flex;
+    justify-content: center;
+    flex-grow: calc(100% 100% 100% 100%);
+    background-image:url(images/banniere.png);
+    background-size: 100%;
+    height: 200px;
+}
+.Banniere-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.Banniere-content h4{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.liste{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.liste a{
+    text-decoration: none;
+    color: orange;
+}
+img {
+    width: 20rem;
+    /* object-fit:cover; */
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    gap:100%;
   }
+.container-grid{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
