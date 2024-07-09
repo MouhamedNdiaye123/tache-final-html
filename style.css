@@ -2146,78 +2146,46 @@ a{
 
 /* partie Amie sene */
 
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    width: 100%;
-    padding: 200px;
-    height: 30px;
-}
-.container{
+.Banniere{
     display: flex;
     justify-content: center;
+    flex-grow: calc(100% 100% 100% 100%);
+    background-image:url(images/banniere.png);
+    background-size: 100%;
+    height: 200px;
+}
+.Banniere-content{
+    display: flex;
     align-items: center;
-    margin: auto;
-    margin-bottom: 80px;
-    margin-top: 80px;
-    max-width: 600px;
-    background-color: white;
-    padding: 10px;
-    gap: 35px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
-section {
-    background-image: url(images/photo\ centrale.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 70px;
-    width: 50%;
-    margin:10%;
+.Banniere-content h4{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
-.container-item img{
-    width: 200px;
-}
-input{
-    display: block;
-    width: 100%;
-    height: 20px;
-    padding-right: 0;
-    margin-bottom: 25px;
-    
-
-
-}
-form div input {
-    /* display: flex; */
-    margin: 10px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    position: relative;
-}
-.div-firstname{
-    display: flex;
-}
-.div-firstname input{
-    width: 40%;
-}
-h1{
+.liste{
     display: flex;
     justify-content: center;
-    align-content: center;
+    gap: 30px;
 }
- .container .form img{
-    display: flex;
-    width:5%;
-    margin: 10px;
+.liste a{
+    text-decoration: none;
+    color: orange;
 }
-.form img{
-    position: relative;
-    bottom: 50px;
-    left: 90%;
-    bottom: 30px;
+img {
+    width: 20rem;
+    /* object-fit:cover; */
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    gap:100%;
+  }
+.container-grid{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    grid-template-rows: repeat(4, auto);
 }
-
 
