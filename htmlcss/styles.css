@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+
+
+img{
+    width: 100%;
+    /* height: 100%; */
+     
+}
+.a img  {
+    background-size:cover ;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+  
+.contai{
+ padding: 5rem 10rem;
+ position: absolute;
+ color: #f1f1f1;
+ width: 90%;
+ height: 60%; 
+ margin-top: -400px;
+ background-image: linear-gradient(to right,  Black, rgba(240, 218, 218, 0.5));
+  }
+.contai .fa{
+ color: rgb(225 , 152, 0);
+ margin-bottom: 1rem;
+}
+
+.twitet{
+ width: 35px;
+}
+
+.icon .fa{
+font-size: 26px;
+/* border-radius: 50%;*/
+}
+.icon ul{
+display: flex;
+justify-content:center;
+gap: 30px;
+}
+ 
+
+h2{
+font-size: 3rem;
+}
+
+.princi{
+display: flex;
+} 
+.ins button{
+padding: 10px 50px ;
+cursor:pointer;
+}
+.principal{
+ display: flex;
+ justify-content: space-between;
+ gap: 20px;
+ padding: 30px 40px;
+}
+.descrition{
+   font-size: 24px;
+   
+}
+h3{ 
+ color: rgb(107, 114, 128)
+}
+.gratuite{
+box-shadow:0 20px 25px -5px #fff,0 8px 10px -6px  ;
+padding: 20px 30px;
+/* width: 200px; */
+height: 150px;    
+}
