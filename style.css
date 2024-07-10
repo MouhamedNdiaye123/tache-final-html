@@ -932,7 +932,7 @@ a{
 
 }
 .block-container .img{
-    background: no-repeat center/ cover url(image/djiango.png);
+    background: no-repeat center/ cover url(images/djiango.png);
     min-height: 26vh;
     /* background-position: top; */
 }
@@ -991,7 +991,7 @@ a{
 
 }
 .one-container .img{
-    background: no-repeat center/ cover url(image/fontend-backend.png);
+    background: no-repeat center/ cover url(images/fontend-backend.png);
     min-height: 26vh;
 }
  .one-container h3{
@@ -1048,7 +1048,7 @@ a{
 
 }
 .two-container .img{
-    background: no-repeat center/ cover url(image/js.webp);
+    background: no-repeat center/ cover url(images/js.webp);
     min-height: 26vh;
 }
  .two-container h3{
@@ -1108,7 +1108,7 @@ a{
 
 }
 .three-container .img{
-    background: no-repeat center/ cover url(image/RxJS.png);
+    background: no-repeat center/ cover url(images/RxJS.png);
     min-height: 26vh;
 }
  .three-container h3{
@@ -1169,7 +1169,7 @@ a{
 
 }
 .four-container .img{
-    background: no-repeat center/ cover url(image/hoock.png);
+    background: no-repeat center/ cover url(images/hoock.png);
     min-height: 26vh;
 }
  .four-container h3{
@@ -1227,7 +1227,7 @@ a{
 
 }
 .five-container .img{
-    background: no-repeat center/ cover url(image/laravel.png);
+    background: no-repeat center/ cover url(images/laravel.png);
     min-height: 26vh;
 }
  .five-container h3{
@@ -1285,7 +1285,7 @@ a{
 
 }
 .six-container .img{
-    background: no-repeat center/ cover url(image/le\ pouvoir.png);
+    background: no-repeat center/ cover url(images/le\ pouvoir.png);
     min-height: 26vh;
 }
  .six-container h3{
@@ -1343,7 +1343,7 @@ a{
 
 }
 .seven-container .img{
-    background: no-repeat center/ cover url(image/Coach\ Diey.png);
+    background: no-repeat center/ cover url(images/Coach\ Diey.png);
     min-height: 26vh;
 }
  .seven-container h3{
@@ -1401,7 +1401,7 @@ a{
 
 }
 .item-container .img{
-    background: no-repeat center/ cover url(image/Model.jpg);
+    background: no-repeat center/ cover url(images/Model.jpg);
     min-height: 26vh;
 }
  .item-container h3{
@@ -1459,7 +1459,7 @@ a{
 
 }
 .gender-container .img{
-    background: no-repeat center/ cover url(image/UX.jpg);
+    background: no-repeat center/ cover url(images/UX.jpg);
     min-height: 26vh;
 }
  .gender-container h3{
@@ -1516,7 +1516,7 @@ a{
 
 }
 .box-container .img{
-    background: no-repeat center/ cover url(image/top\ 10.png);
+    background: no-repeat center/ cover url(images/top\ 10.png);
     min-height: 26vh;
 }
  .box-container h3{
@@ -1575,7 +1575,7 @@ a{
 
 }
 .flex-container .img{
-    background: no-repeat center/ cover url(image/Dieynaba\ Ly.png);
+    background: no-repeat center/ cover url(images/Dieynaba\ Ly.png);
     min-height: 26vh;
 }
  .flex-container h3{
@@ -1634,7 +1634,7 @@ a{
 
 }
 .aws-container .img{
-    background: no-repeat center/ cover url(image/Dieyna\ AWS.png);
+    background: no-repeat center/ cover url(images/Dieyna\ AWS.png);
     min-height: 26vh;
 }
  .aws-container h3{
@@ -1693,7 +1693,7 @@ a{
 
 }
 .java-container .img{
-    background: no-repeat center/ cover url(image/sokhnna\ fatou\ JS.png);
+    background: no-repeat center/ cover url(images/sokhnna\ fatou\ JS.png);
     min-height: 26vh;
 }
  .java-container h3{
@@ -1752,7 +1752,7 @@ a{
 
 }
 .lang-container .img{
-    background: no-repeat center/ cover url(image/mémoire.png);
+    background: no-repeat center/ cover url(images/mémoire.png);
     min-height: 26vh;
 }
  .lang-container h3{
@@ -1811,7 +1811,7 @@ a{
 
 }
 .git-container .img{
-    background: no-repeat center/ cover url(image/Oumy\ Laye.png);
+    background: no-repeat center/ cover url(images/Oumy\ Laye.png);
     min-height: 26vh;
 }
  .git-container h3{
@@ -1870,7 +1870,7 @@ a{
 
 }
 .speak-container .img{
-    background: no-repeat center/ cover url(image/coach\ Samb.png);
+    background: no-repeat center/ cover url(images/coach\ Samb.png);
     min-height: 26vh;
 }
  .speak-container h3{
@@ -1929,7 +1929,7 @@ a{
 
 }
 .pwa-container .img{
-    background: no-repeat center/ cover url(image/daouda\ react\ et\ push.png);
+    background: no-repeat center/ cover url(images/daouda\ react\ et\ push.png);
     min-height: 26vh;
 }
  .pwa-container h3{
@@ -1988,7 +1988,7 @@ a{
 
 }
 .next-container .img{
-    background: no-repeat center/ cover url(image/Daouda\ Thiam.png);
+    background: no-repeat center/ cover url(images/Daouda\ Thiam.png);
     min-height: 26vh;
 }
  .next-container h3{
@@ -2047,7 +2047,7 @@ a{
 
 }
 .query-container .img{
-    background: no-repeat center/ cover url(image/query.webp);
+    background: no-repeat center/ cover url(images/query.webp);
     min-height: 26vh;
 }
  .query-container h3{
