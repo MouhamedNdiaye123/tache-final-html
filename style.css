@@ -896,19 +896,16 @@ h4 {
 
 /* partie Nafisstou */
 
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-   font-family: sans-serif;
-}
 .heading{
     padding-top: 5rem;
-    padding-left: 30rem;
+    padding-left: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 .index{
-    color: orange;
+    color: var(--jaune);
 }
 .blog{
     color: black;
@@ -929,10 +926,7 @@ a{
     margin: auto;
     margin-top: 40px;
 }
-.section-bloc:hover{
-    /* transform: translateY(1.5); */
-    
-} 
+
 .block-container{
     padding: 20px;
 
@@ -991,10 +985,7 @@ a{
     margin: auto;
     margin-top: 40px;
 }
-.section-one:hover{
-    /* transform: translateY(1.5); */
-    
-} 
+
 .one-container{
     padding: 20px;
 
@@ -1052,10 +1043,6 @@ a{
     margin: auto;
     margin-top: 40px;
 }
-.section-two:hover{
-    /* transform: translateY(1.5); */
-    
-} 
 .two-container{
     padding: 20px;
 
@@ -1234,10 +1221,7 @@ a{
     margin: auto;
     margin-top: 40px;
 }
-.section-five:hover{
-    /* transform: translateY(1.5); */
-    
-} 
+
 .five-container{
     padding: 20px;
 
@@ -1295,10 +1279,7 @@ a{
     margin: auto;
     margin-top: 40px;
 }
-.section-six:hover{
-    /* transform: translateY(1.5); */
-    
-} 
+
 .six-container{
     padding: 20px;
 
@@ -1356,10 +1337,7 @@ a{
     margin: auto;
     margin-top: 40px;
 }
-.section-seven:hover{
-    /* transform: translateY(1.5); */
-    
-} 
+
 .seven-container{
     padding: 20px;
 
@@ -1417,10 +1395,7 @@ a{
     margin: auto;
     margin-top: 40px;
 }
-.section-item:hover{
-    /* transform: translateY(1.5); */
-    
-} 
+
 .item-container{
     padding: 20px;
 
@@ -1478,10 +1453,7 @@ a{
     margin: auto;
     margin-top: 40px;
 }
-.section-gender:hover{
-    /* transform: translateY(1.5); */
-    
-} 
+
 .gender-container{
     padding: 20px;
 
@@ -1538,10 +1510,7 @@ a{
     margin: auto;
     margin-top: 40px;
 }
-.section-box:hover{
-    /* transform: translateY(1.5); */
-    
-} 
+
 .box-container{
     padding: 20px;
 
@@ -1600,10 +1569,7 @@ a{
     margin: auto;
     margin-top: 40px;
 }
-.section-flex:hover{
-    /* transform: translateY(1.5); */
-    
-} 
+
 .flex-container{
     padding: 20px;
 
@@ -1662,10 +1628,7 @@ a{
     margin: auto;
     margin-top: 40px;
 }
-.section-aws:hover{
-    /* transform: translateY(1.5); */
-    
-} 
+
 .aws-container{
     padding: 20px;
 
@@ -1724,10 +1687,7 @@ a{
     margin: auto;
     margin-top: 40px;
 }
-.section-java:hover{
-    /* transform: translateY(1.5); */
-    
-} 
+ 
 .java-container{
     padding: 20px;
 
@@ -1786,10 +1746,7 @@ a{
     margin: auto;
     margin-top: 40px;
 }
-.section-lang:hover{
-    /* transform: translateY(1.5); */
-    
-} 
+
 .lang-container{
     padding: 20px;
 
@@ -1848,10 +1805,7 @@ a{
     margin: auto;
     margin-top: 40px;
 }
-.section-git:hover{
-    /* transform: translateY(1.5); */
-    
-} 
+
 .git-container{
     padding: 20px;
 
@@ -1910,10 +1864,7 @@ a{
     margin: auto;
     margin-top: 40px;
 }
-.section-speak:hover{
-    /* transform: translateY(1.5); */
-    
-} 
+
 .speak-container{
     padding: 20px;
 
@@ -1972,10 +1923,7 @@ a{
     margin: auto;
     margin-top: 40px;
 }
-.section-pwa:hover{
-    /* transform: translateY(1.5); */
-    
-} 
+
 .pwa-container{
     padding: 20px;
 
@@ -2034,10 +1982,7 @@ a{
     margin: auto;
     margin-top: 40px;
 }
-.section-next:hover{
-    /* transform: translateY(1.5); */
-    
-} 
+
 .next-container{
     padding: 20px;
 
@@ -2096,10 +2041,7 @@ a{
     margin: auto;
     margin-top: 40px;
 }
-.section-query:hover{
-    /* transform: translateY(1.5); */
-    
-} 
+
 .query-container{
     padding: 20px;
 
@@ -2142,4 +2084,50 @@ a{
 }
 /* ---------------------------12ème partie------------------------- */
 
+
+
+/* partie Amie sene */
+
+.Banniere{
+    display: flex;
+    justify-content: center;
+    flex-grow: calc(100% 100% 100% 100%);
+    background-image:url(images/banniere.png);
+    background-size: 100%;
+    height: 200px;
+}
+.Banniere-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.Banniere-content h4{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.liste{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.liste a{
+    text-decoration: none;
+    color: orange;
+}
+img {
+    width: 20rem;
+    /* object-fit:cover; */
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    gap:100%;
+  }
+.container-grid{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    grid-template-rows: repeat(4, auto);
+}
 
