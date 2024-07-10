@@ -2127,7 +2127,21 @@ img {
   }
 .container-grid{
     display: grid;
-    grid-template-columns: repeat(4 ,1fr);
-    grid-template-rows: repeat(4, auto);
+    grid-template-columns: repeat(auto-fit, minmax(230px, auto));
+    grid-gap: 20px;
+    /* grid-template-rows: repeat(4, auto); */
 }
-
+.grid-items{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.grid-items h5{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.grid-items span{
+    color: rgb(167, 167, 167);
+    font-size: 14px;
+}
